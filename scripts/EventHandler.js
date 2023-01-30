@@ -1,4 +1,4 @@
-//
+
 var welcomeLabel = document.getElementById("welcome");
 var displayEvent = document.getElementById("displayEvent");
 
