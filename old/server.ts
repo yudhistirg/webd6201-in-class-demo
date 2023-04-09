@@ -3,7 +3,7 @@ import fs from 'fs'
 import mime from 'mime-types'
 
 const hostname = '127.0.0.1';
-const port = process.env.PORT || 3010;
+const port = process.env.PORT || 3000;
 let lookup = mime.lookup
 
 const server = http.createServer((req, res) => {
